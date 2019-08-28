@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>waypoint_generator</name>
+  <version>0.0.1</version>
+  <description>Generates waypoint yaml file</description>
+
+  <author email="jihoonlee.in@gmail.com">Jihoon Lee</author>
+  <maintainer email="zhi.yan@utbm.fr">Zhi Yan</maintainer>
+  
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
