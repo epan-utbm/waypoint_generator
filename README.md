@@ -1,4 +1,4 @@
-# joystick_remapper
+# waypoint_generator
 
 Modified from https://github.com/jihoonl/waypoint/tree/master/waypoint_generator with "orientation" added.
 
