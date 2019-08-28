@@ -16,4 +16,8 @@ $ chmod +x waypoint_generator.py
 $ ./waypoint_generator.py
 ```
 
+# Usage
+
+![usage.png](usage.png)
+
 *Tested with Ubuntu 16.04 LTS + ROS Kinetic*
