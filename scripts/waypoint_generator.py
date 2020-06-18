@@ -7,7 +7,7 @@ import geometry_msgs.msg as geometry_msgs
 class WaypointGenerator(object):
 
     def __init__(self, filename):
-        """ init """
+        """init"""
         self._sub_pose = rospy.Subscriber('/goal', geometry_msgs.PoseStamped, self._process_pose, queue_size=1)
         self._waypoints = []
         self._filename = filename
